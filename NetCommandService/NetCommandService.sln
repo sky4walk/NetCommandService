@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCommandService", "NetCommandService.csproj", "{23112F00-41A3-4D0B-AC95-DEB61C486D41}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NetcommandServiceInstaller", "..\NetCommandServiceInstaller\NetCommandServiceInstaller.vdproj", "{F395623D-1654-439B-989B-2A089C5944AC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCommandApp", "..\NetCommandApp\NetCommandApp.csproj", "{3D2F52D8-8861-48B6-913B-6AD9BAF0EE48}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{23112F00-41A3-4D0B-AC95-DEB61C486D41}.Debug.ActiveCfg = Debug|.NET
+		{23112F00-41A3-4D0B-AC95-DEB61C486D41}.Debug.Build.0 = Debug|.NET
+		{23112F00-41A3-4D0B-AC95-DEB61C486D41}.Release.ActiveCfg = Release|.NET
+		{23112F00-41A3-4D0B-AC95-DEB61C486D41}.Release.Build.0 = Release|.NET
+		{F395623D-1654-439B-989B-2A089C5944AC}.Debug.ActiveCfg = Debug
+		{F395623D-1654-439B-989B-2A089C5944AC}.Debug.Build.0 = Debug
+		{F395623D-1654-439B-989B-2A089C5944AC}.Release.ActiveCfg = Release
+		{F395623D-1654-439B-989B-2A089C5944AC}.Release.Build.0 = Release
+		{3D2F52D8-8861-48B6-913B-6AD9BAF0EE48}.Debug.ActiveCfg = Debug|.NET
+		{3D2F52D8-8861-48B6-913B-6AD9BAF0EE48}.Debug.Build.0 = Debug|.NET
+		{3D2F52D8-8861-48B6-913B-6AD9BAF0EE48}.Release.ActiveCfg = Release|.NET
+		{3D2F52D8-8861-48B6-913B-6AD9BAF0EE48}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
